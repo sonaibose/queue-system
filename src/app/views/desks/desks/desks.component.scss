@@ -1,0 +1,185 @@
+.float-l{float: left;}
+
+.float-r{float: right;}
+
+.deskhead 
+{
+    margin: 10px 15px 15px;
+    font-size: 34px;
+    font-weight: normal;
+    clear: both;
+}
+
+.desksection {
+    width: 98%;
+    min-height: 260px;
+    float: left;
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 5px 15px #00000026;
+    border-radius: 8px;
+    padding:10px 10px 20px;
+    margin: 0 15px 30px;
+}
+
+input.inputstore {
+    border: none;
+    border-bottom: 1px solid #C5C5C5;
+    width: 120px;
+    color: #8D8D8D;
+    font-size: 14px;
+}
+
+.storecode {
+    margin-top: 14px;
+}
+
+.status.session {
+    margin-left: 30px;
+}
+
+.searchbg {
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.sessionbg {
+    background: #da3e7b;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sessionbg span.session {
+    color: #fff;
+    font-weight: normal;
+    padding: 1px 10px;
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+}
+
+.desksection .desknumber {
+    margin-left: 2em;
+    margin-top: 16px;
+}
+
+.status.session span.session {
+    position: relative;
+    top: 3px;
+}
+
+.table-desk td {
+    padding-bottom: 0;
+}
+
+.session .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background: #747474;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.session input:checked + .slider {
+  background-color: #E9E9E9;
+}
+
+.session input:checked + .slider::before{
+  background: #DA3E7B;
+}
+
+table.table-desk th {
+    color: #da3e7b;
+    padding: 10px;
+}
+
+table.table-desk {
+    width: 100%;
+    border: 1px solid #c5c5c5;
+}
+
+table.table-desk tbody tr:nth-of-type(odd) {
+    background: #f3f3f3;
+}
+
+table.table-desk tbody tr td{
+    padding-left: 10px;
+}
+
+.table-desk .status.session {
+    margin-left: 0;
+}
+
+span.session{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+
+/* The switch - the box around the slider */
+.session .switch {position: relative; display: inline-block; width:52px; height:29px;}
+
+/* Hide default HTML checkbox */
+.session .switch input {opacity: 0; width: 0; height: 0;}
+
+/* The slider */
+.session .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#E9E9E9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.session .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background: #747474;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+
+.session input:checked + .slider {
+  background-color: #E9E9E9;
+}
+
+
+.session input:checked + .slider::before{
+  background: #DA3E7B;
+}
+
+
+.session input:focus + .slider {
+  box-shadow: 0 0 1px #E9E9E9;
+}
+
+.session input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.session .slider.round {border-radius: 34px;}
+
+.session .slider.round:before {border-radius: 50%;}
+
+.session{
+    margin: 15px auto 10px;
+}

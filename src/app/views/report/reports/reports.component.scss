@@ -1,0 +1,39 @@
+@import "../../../../assets/styles/const";
+
+.card-left-heading {
+  margin-top: 1em;
+}
+
+.ticketCount {
+  margin: .5em;
+  background: purple;
+  padding: 0px 10px 3px 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+.section1 {
+  background: $gray-200;
+  height: 7em;
+  max-width: 48%;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+
+  .text-pane {
+    text-align: right;
+    .time{
+      font-weight: bold;
+      font-size: 22px;
+    }
+    .text {
+      color: gray;
+      font-weight: bold;
+    }
+  }
+}
+
+.section-container {
+  margin: 1em 1em;
+}
+

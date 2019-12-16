@@ -1,0 +1,85 @@
+@import '~src/assets/styles/const';
+
+.header {
+  overflow: hidden;
+  background-color: $white;
+  padding: 3px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: $topbar-height;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+  z-index: 999;
+
+  .logo {
+    height: 4em;
+    margin-left: 1em;
+  }
+
+  a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+
+    &.logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    &:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    &.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+  }
+
+  .title {
+    display: inline;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    span {
+      margin: 1em 2em;
+      position: absolute;
+    }
+  }
+
+  .header-right {
+    float: right;
+    img{
+      cursor: pointer;
+    }
+
+  }
+
+  .header-divider {
+    border-bottom: 2px solid $gray-light;
+    position: relative;
+    left: 9px;
+    top: 3.5em;
+    width: 99%;
+    justify-content: center;
+  }
+
+}
+
+
+/*---Reverse Style-----*/
+// .title {
+//   float: right;
+// }
+
+// .header-right
+// {
+//   float:left !important;
+// }

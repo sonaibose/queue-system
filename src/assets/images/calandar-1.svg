@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.634" height="23.634" viewBox="0 0 23.634 23.634">
+  <g id="Group_1605" data-name="Group 1605" transform="translate(-1295.183 -187.183)">
+    <g id="small-calendar" transform="translate(1295.183 187.183)">
+      <g id="calendar_1_">
+        <path id="Path_4968" data-name="Path 4968" d="M21.665,2.216h-3.2V.739a.739.739,0,0,0-1.477,0V2.216H12.556V.739a.739.739,0,0,0-1.477,0V2.216H6.647V.739a.739.739,0,0,0-1.477,0V2.216H1.97A1.969,1.969,0,0,0,0,4.185v17.48a1.97,1.97,0,0,0,1.97,1.97h19.7a1.969,1.969,0,0,0,1.969-1.97V4.185A1.968,1.968,0,0,0,21.665,2.216Zm.492,19.449a.493.493,0,0,1-.492.493H1.97a.493.493,0,0,1-.493-.493V4.185a.493.493,0,0,1,.493-.492h3.2V5.17a.739.739,0,0,0,1.477,0V3.693h4.431V5.17a.739.739,0,0,0,1.477,0V3.693h4.431V5.17a.739.739,0,0,0,1.477,0V3.693h3.2a.493.493,0,0,1,.492.492Z" fill="#010002"/>
+      </g>
+    </g>
+    <rect id="Rectangle_464" data-name="Rectangle 464" width="3" height="3" transform="translate(1300 196)" fill="#010002"/>
+    <rect id="Rectangle_467" data-name="Rectangle 467" width="4" height="3" transform="translate(1305 196)" fill="#010002"/>
+    <rect id="Rectangle_469" data-name="Rectangle 469" width="3" height="3" transform="translate(1311 196)" fill="#010002"/>
+    <rect id="Rectangle_465" data-name="Rectangle 465" width="3" height="4" transform="translate(1300 201)" fill="#010002"/>
+    <rect id="Rectangle_466" data-name="Rectangle 466" width="4" height="4" transform="translate(1305 201)" fill="#010002"/>
+    <rect id="Rectangle_468" data-name="Rectangle 468" width="3" height="4" transform="translate(1311 201)" fill="#010002"/>
+  </g>
+</svg>

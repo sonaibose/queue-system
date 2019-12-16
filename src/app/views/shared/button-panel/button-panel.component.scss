@@ -1,0 +1,14 @@
+@import '~src/assets/styles/const';
+
+.button-panel-container {
+  margin: .5em 0em 0.5em 0em;
+  //height: 3em;
+}
+
+.divider {
+  border-bottom: 2px solid $gray-splitter;
+  position: relative;
+  width: 101%;
+  left: -18px;
+  justify-content: center;
+}

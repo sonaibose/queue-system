@@ -1,0 +1,60 @@
+<div class="container col-md-12">
+  <h3>Reports</h3>
+  <div class="card mb-2">
+    <div class="card-body">
+      <app-button-panel [leftButtons]="leftButtons" [rightButtons]="rightButtons"
+                        (buttonAction)="onPanelButtonClic($event)"></app-button-panel>
+      <div class="row mt-3">
+        <div class="col-md-5">
+          <div class="card-left-heading">
+            <h5>Tickets<span class="ticketCount">43</span></h5>
+          </div>
+          <div class="custom-multiselect mt-3">
+            <p-multiSelect [options]="cities1" [ngModel]="selectedCities1" [panelStyle]="{minWidth:'12em'}">
+              <ng-template let-value pTemplate="selectedItems">
+                     <span *ngFor="let val of value" class="ui-multiselected-item-token ui-corner-all">
+                     <span>{{val.name}}</span>
+                     </span>
+                <span *ngIf="!value || value.length === 0"
+                      class="ui-multiselected-empty-token ui-corner-all">Choose</span>
+              </ng-template>
+              <ng-template let-car pTemplate="item">
+                <div style="font-size:14px;float:right;margin-top:4px">{{car.label}}</div>
+              </ng-template>
+            </p-multiSelect>
+          </div>
+          <div class="search-control mt-3">
+            <i class="fa fa-search"></i>
+            <input type="text" class="search-input-box" placeholder="Search">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="row justify-content-between section-container">
+            <div class="col-md-6 section1">
+              <div class="row align-vertical-center">
+                <span class="col-md-4 image-pane">
+                   <img class="logo" src="assets/images/time-left.svg">
+                </span>
+                <span class="col-md-7 text-pane">
+                    <div class="text">Total Waiting Time</div>
+                    <div class="time">0hr 0mins 28sec</div>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-6 section1">
+              <div class="row align-vertical-center">
+                <div class="col-md-4 image-pane">
+                  <img class="logo" src="assets/images/stopwatch.svg">
+                </div>
+                <div class="col-md-7 text-pane">
+                  <div class="text">Total Serving Time</div>
+                  <div class="time">2mins 1sec</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

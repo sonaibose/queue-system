@@ -1,0 +1,26 @@
+@import "./../const";
+
+.custom-multiselect {
+  .ui-multiselect{
+    border: none;
+    border-bottom: 2px solid $gray-splitter;
+    border-radius: 0px;
+    width: 100%;
+    &:hover{
+      border-color: $gray-500 !important;
+    }
+  }
+  .ui-multiselect-label-container {
+    min-width: 20em;
+    .ui-multiselect-label {
+      .ui-multiselected-item-token {
+        margin-right: 9px;
+        span{
+          border-radius: 50px;
+          background: gray;
+          padding: 0px 6px;
+        }
+      }
+    }
+  }
+}

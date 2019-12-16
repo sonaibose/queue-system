@@ -1,0 +1,60 @@
+$blue:    #270433 !default;
+$indigo:  #6610f2 !default;
+$purple:  #663399 !default;
+$pink:    #e83e8c !default;
+$red:     #df0029 !default;
+$yellow:  #ffb822 !default;
+$green:   #4CAF50 !default;
+$teal:    #20c997 !default;
+$cyan:    #9C27B0 !default;
+$orange:  #DA3E7B !default;
+$orange-highlight: #f3438d !default;
+
+$primary-base: $blue;
+
+$white:    #fff !default;
+$gray-light: #E3E4E5 !default;
+$gray-100: #f8f9fa !default;
+$gray-150: #FAFAFA !default;
+$gray-200: #eee !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #bbb !default;
+$gray-600: lighten(desaturate($primary-base, 40), 4%) !default;
+$gray-700: darken(desaturate($primary-base, 40), 0%) !default;
+$gray-800: darken(desaturate($primary-base, 40), 8%) !default;
+$gray-900: darken(desaturate($primary-base, 40), 12%) !default;
+$gray-selected: #808080 !default;
+$gray-splitter: #E3E4E5;
+
+$black:    darken($primary-base, 60%) !default;
+
+$primary:       $primary-base !default;
+$primary-highlight: #8c8c8c !default;
+$primary-highlight2: #646467 !default;
+
+$secondary:     $gray-800 !default;
+$success:       $green !default;
+$info:          $blue !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-500 !default;
+$dark:          $gray-900 !default;
+$background:    $white !default;
+$foreground:    $gray-900 !default;
+$heading:       darken($foreground, 8%);
+
+
+// LAYOUT VARS
+$topbar-height: 4em;
+$topbar-height-mobile: 70px;
+
+$footer-height: 0;
+
+$sidebar-left-width: 11em;
+$sidebar-left-width-mobile: 90px;
+$sidebar-left-secondary-width: 220px;
+$sidebar-left-secondary-width-mobile: 190px;
+$side-clearance: 20px;
+
+

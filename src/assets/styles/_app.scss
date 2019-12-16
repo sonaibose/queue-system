@@ -1,0 +1,96 @@
+@import "const";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "components/card";
+@import "components/primeng";
+
+body {
+  background: $gray-150;
+}
+
+.btn {
+  cursor: pointer;
+  line-height: 1.3em;
+  &.rounded {
+    border-radius: 40px !important;
+  }
+
+  &.btn-wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+}
+
+.btn-deselect {
+  border: 2px solid $gray-500;
+  padding: 0.2em 1.8em;
+  background: $gray-150;
+  line-height: 1em;
+  &:hover {
+    background: $gray-selected;
+    color: $white;
+  }
+}
+
+.btn-selected {
+  color: #fff;
+  background-color: $orange;
+  border: 2px solid;
+  padding: 0.2em 1.8em;
+
+  &:hover {
+    background: $orange-highlight;
+    color: $white;
+  }
+}
+
+
+.btn-primary-right {
+  border: none;
+  padding: 0.2em 1.8em;
+  color: white;
+  background: $primary;
+
+  &:hover {
+    color: white;
+    background: $orange-highlight;
+  }
+}
+
+
+.include-border {
+  border-bottom: 2px solid  #E3E4E5;
+  width: 98%;
+  margin: auto;
+}
+
+
+.container{
+  margin-left: 0;
+  margin-top: 1em;
+}
+
+.padding-none{
+  padding: 0;
+}
+.search-control {
+  i{
+    position: absolute;
+    right: 0;
+    padding: 11px 32px;
+    font-size: 1.1em;
+  }
+  .search-input-box {
+    width: 100%;
+    background: #f1f1f1;
+    border: 0;
+    border-radius: 50px;
+    padding: 6px 19px 10px 19px;
+  }
+}
+
+
+.align-vertical-center {
+  height: 100%;
+  align-items: center;
+}

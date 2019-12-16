@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+body{background: #f2f2f2; font-family: 'Roboto', sans-serif;}
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+.ticket-section {margin: 0 15px;}
+
+h2.tickethead {margin: 10px 15px 15px; font-size: 34px; font-weight: normal;}
+
+.ticket-top{width: 100%; min-height: 260px; float:left; background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 5px 15px #00000026; border-radius: 8px;padding-bottom: 20px;}
+
+
+/* The switch - the box around the slider */
+.session .switch {position: relative; display: inline-block; width:52px; height:29px;}
+
+/* Hide default HTML checkbox */
+.session .switch input {opacity: 0; width: 0; height: 0;}
+
+/* The slider */
+.session .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#E9E9E9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.session .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background: #747474;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+
+.session input:checked + .slider {
+  background-color: #E9E9E9;
+}
+
+
+.session input:checked + .slider::before{
+  background: #DA3E7B;
+}
+
+
+.session input:focus + .slider {
+  box-shadow: 0 0 1px #E9E9E9;
+}
+
+.session input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.session .slider.round {border-radius: 34px;}
+
+.session .slider.round:before {border-radius: 50%;}
+
+span.session {color: #000; font-size: 16px; font-weight: 600; margin-right: 5px;}
+
+.deskno {color: #000; font-size: 16px; font-weight: 600; margin-right: 5px; text-transform: capitalize;}
+
+.float-l { float: left;}
+
+.clear, .current-ticket {clear:both;}
+
+.ticket-content { border-bottom:1px solid #C5C5C5; overflow: hidden; margin: 0 10px; padding:10px 0;}
+
+.ticket-details li {color: #000; display: inline;text-transform: capitalize; border-right: 1px solid #C5C5C5; font-weight: 600; padding: 0 5px; font-size: 16px; margin: 0 5px;}
+
+.ticket-details ul li:last-child{border:0;margin-right:0;}
+
+.ticketcount h3 {font-size: 16px;text-transform: capitalize;margin-bottom: 0;}
+
+.ticketcount h4 {font-size: 20px; margin-top: 5px;}
+
+.recall, .noshow {background: #DA3E7B;}
+
+.done, .next {background: #270433;}
+
+.info:last-child{margin:0;}
+
+.info span {padding: 6px 10px; display: inline-block;}
+
+.info label {font-size: 18px; color: #fff;text-transform: capitalize; float: right;margin: 0; padding: 16px 25px 0 0;}
+
+.current-ticket {margin: 0 10px; padding: 20px 0 0; overflow: hidden;}
+
+.float-r {float: right;}
+
+.ticket-info {margin: 0 10px;}
+
+.desknumber {margin-left: 5em; margin-top: 14px;}
+
+select.select-desk {border: none; border-bottom: 1px solid #C5C5C5;width:120px; color: #8D8D8D;font-size: 14px;margin-left: 5px;}
+
+.ticket-botttom {float: left;width: 100%; margin: 30px 0;}
+
+.bottom-info {height: 103px;color: #fff; border-radius: 10px; width: 24.25%; margin: 0 1% 0 0; cursor: pointer;box-shadow: 0px 5px 15px #00000026;}
+
+.bottom-info:last-child{margin:0;}
+
+.remain { background: transparent linear-gradient(73deg, #FB9980 0%, #FECC86 100%) 0% 0% no-repeat padding-box;}
+
+.upcoming {background: transparent linear-gradient(73deg, #F76C84 0%, #FF78B4 100%) 0% 0% no-repeat padding-box;}
+
+.skip {background: transparent linear-gradient(73deg, #885593 0%, #8390B6 100%) 0% 0% no-repeat padding-box;}
+
+.transfer {background: transparent linear-gradient(249deg, #A6E595 0%, #09CD89 100%) 0% 0% no-repeat padding-box;}
+
+.info-left {height: 103px; display: flex;margin: 0 15px;}
+
+.info-right h3 {font-size: 18px; font-weight: normal;}
+
+.info-right h4 {font-size: 40px; font-weight: normal; line-height: 30px;}
+
+.info-right {margin: 15px 20px;}
+
+/*---Reverse Style-----*/
+
+.hour-sec ul {border: 1px solid #C5C5C5; overflow: hidden; border-radius: 50px; padding: 7px 12px; margin:0;}
+
+.hour-sec ul li {list-style: none; float: left;}
+
+.hour-sec ul li span {float: left; width: 100%; text-align: center; font-weight: bold; font-size: 18px; line-height: 18px;}
+
+.hour-sec ul li label {text-align: center; width: 100%; font-size: 14px; color: #C5C5C5; margin: 0;}
+
+li.sep {font-size: 18px; font-weight: bold; position: relative; top: -6px;}
+
+.refresh-button {margin-left: 25px;margin-top: 8px;}
+
+.session {margin: 15px auto 10px;}
+
+.ticket-info {background: #f3f1f1;}
+
+.ticketcount h5 {background: #da407c; color: #fff; font-size: 12px; border-radius: 50px; padding: 2px 10px 4px;  font-weight: normal; float:right;}
+
+.ticket2 ul li { list-style: none; text-transform: capitalize;}
+
+.ticket2 ul li h5 {font-size: 16px;}
+
+.ticket2 li h5 span {border-right: 1px solid #c5c5c5; padding-right: 10px; margin-right: 10px;  font-size: 14px;}
+
+.ticket2 li h5 span:last-child {border:0;}
+
+.ticket {padding: 10px; position: relative; cursor: pointer;}
+
+.ticket1 { border-right: 1px solid #c5c5c5; padding-right: 30px;}
+
+.ticket2 {padding-top:20px;}
+
+.ticket3 {
+  background: #18c575;
+  height: 105px;
+  width: 100px;
+}
+
+.ticket3 span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.ticket3 span img {
+  position: relative;
+  top: 16px;
+  transform: rotate(270deg);
+}
+
+.ticket3 label {
+  font-weight: 600;
+  text-transform: capitalize;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: -22px;
+}
+
+.ticket3-sub.ticket {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.ticket4.ticket {
+  padding: 0;
+}
+
+.ticket4 .info {
+  background: #cfcfcf;
+  border-radius: 0;
+  margin: 0 1.5% 0 0;
+  text-align: center;
+  height: 105px;
+  width: 31%;
+}
+
+.ticket4 .info label {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0;
+  color: #000;
+  top: -20px;
+  font-weight: 600;
+}
