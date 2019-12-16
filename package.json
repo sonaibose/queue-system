@@ -30,7 +30,7 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
     "primeicons": "^2.0.0",
-    "primeng": "^8.0.3",
+    "primeng": "^8.1.1",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
     "web-animations-js": "2.3.2",

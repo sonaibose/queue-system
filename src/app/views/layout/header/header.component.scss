@@ -73,13 +73,32 @@
 
 }
 
+.example-margin {
+  margin: 10px;
+}
+
+.lang-dropdown {
+
+  p-dropdown {
+    > .ui-dropdown {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      vertical-align: middle;
+      min-width: 8.5em;
+    }
+  }
+}
+
 
 /*---Reverse Style-----*/
-// .title {
-//   float: right;
-// }
+.reverse {
+  .title {
+    float: right;
+  }
+   .header-right {
+     float: left !important;
+   }
+}
 
-// .header-right
-// {
-//   float:left !important;
-// }
+

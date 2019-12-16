@@ -1,4 +1,5 @@
 @import '~src/assets/styles/const';
+
 $sidebar-width-percentage: 100%;
 
 .layout-sidebar-large {
@@ -15,15 +16,18 @@ $sidebar-width-percentage: 100%;
     left: calc(-#{$sidebar-left-width} - #{$side-clearance});
     z-index: 90;
     transition: all .24s ease-in-out;
+
     &.open {
       left: 0;
       background: $primary;
       box-shadow: 1px 2px 7px $primary, -3px 3px 0px #424467;
       //box-shadow: 1px 2px 7px rgb(39, 4, 51), -3px 3px 5px rgb(57, 23, 68);
     }
+
     .logo {
 
     }
+
     .navigation-left {
       list-style: none;
       text-align: center;
@@ -33,6 +37,7 @@ $sidebar-width-percentage: 100%;
       padding: 0;
       margin-right: 3em;
       width: 100%;
+
       .nav-item {
         position: relative;
         display: block;
@@ -40,25 +45,32 @@ $sidebar-width-percentage: 100%;
         color: $heading;
         cursor: pointer;
         line-height: 1em;
+
         &:focus, &:active {
           outline: none;
         }
+
         &.lvl1 {
           text-align: left;
-          &:hover{
+
+          &:hover {
             background: $orange;
           }
         }
+
         &.active {
           background: $orange;
         }
+
         .nav-item-hold {
           width: 100%;
           padding: 26px 0px 2px 1px;
           margin-left: 1em;
+
           &:focus, &:active {
             outline: none;
           }
+
           .nav-icon, .feather {
             font-size: 16px;
             height: 19px;
@@ -66,6 +78,7 @@ $sidebar-width-percentage: 100%;
             margin: 0 auto 2px;
             color: white;
           }
+
           .nav-text {
             font-size: 12px;
             color: white;
@@ -74,14 +87,17 @@ $sidebar-width-percentage: 100%;
             margin-left: 6px;
             position: relative;
             top: -11px;
+
             &.highlight {
               color: $white;
             }
           }
+
           a {
             color: $heading;
           }
         }
+
         &.active .triangle {
           position: absolute;
           width: 0;
@@ -104,12 +120,15 @@ $sidebar-width-percentage: 100%;
     padding: .75rem 0;
     transition: all .24s ease-in-out;
     background: $background;
+
     &.open {
       left: $sidebar-left-width;
     }
+
     header {
       display: none;
     }
+
     .childNav {
       list-style: none;
       padding: 0;
@@ -126,35 +145,43 @@ $sidebar-width-percentage: 100%;
           cursor: pointer;
           padding: 12px 24px;
           transition: .15s all ease-in;
+
           &:hover {
             background: $gray-200;
           }
+
           &.open {
             color: $primary;
           }
+
           .nav-icon {
             font-size: 18px;
             margin-right: 8px;
             vertical-align: middle;
             color: $gray-600;
           }
+
           .item-name {
             vertical-align: middle;
             font-weight: 400;
           }
+
           .dd-arrow {
             margin-left: auto;
             font-size: 11px;
           }
         }
+
         .submenu {
           margin-left: 8px;
         }
       }
     }
-    &> .childNav {
+
+    & > .childNav {
       margin: 0;
     }
+
     li.nav-item {
       &.open {
         > div {
@@ -163,6 +190,7 @@ $sidebar-width-percentage: 100%;
               transform: rotate(90deg);
             }
           }
+
           > .childNav {
             max-height: 1000px;
             overflow: visible;
@@ -176,11 +204,13 @@ $sidebar-width-percentage: 100%;
             transition: all .4s ease-in-out;
           }
         }
+
         > .childNav {
           max-height: 0;
           overflow: hidden;
           background: $background;
           transition: all .4s ease-in-out;
+
           li.nav-item a {
             padding: 12px 12px 12px 50px;
           }
@@ -199,6 +229,7 @@ $sidebar-width-percentage: 100%;
     background: rgba(0, 0, 0, 0);
     z-index: 101;
     cursor: w-resize;
+
     &.open {
       display: block;
     }
@@ -236,7 +267,7 @@ $sidebar-width-percentage: 100%;
 //  }
 //}
 
-.logo-icon-image{
+.logo-icon-image {
   height: 1em;
   position: relative;
   top: -11px;
@@ -244,14 +275,16 @@ $sidebar-width-percentage: 100%;
 
 
 /*---Reverse Style-----*/
+.reverse {
+  .sidebar-left.rtl-ps-none {
+    right: 0;
+    left: auto !important;
+    width: 171px;
+  }
 
-// .sidebar-left.rtl-ps-none {
-//   right: 0;
-//   left: auto !important;
-//   width: 171px;
-// }
+  .main-content-wrap.d-flex.flex-column {
+    display: block !important;
+    float: left !important;
+  }
+}
 
-// .main-content-wrap.d-flex.flex-column {
-//   display: block !important;
-//   float: left !important;
-// }
