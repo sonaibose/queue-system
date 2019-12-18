@@ -90,15 +90,14 @@
   }
 }
 
-
-/*---Reverse Style-----*/
-.reverse {
-  .title {
-    float: right;
-  }
-   .header-right {
-     float: left !important;
-   }
+.lang-dropdown
+{
+  margin-top: 14px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 24%;
 }
-
 

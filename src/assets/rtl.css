@@ -1,0 +1,65 @@
+#sidebar ul li a i {
+  float: right;
+  margin-left: 23px;
+  margin-right: 0 !important;
+}
+
+#sidebar ul li.active > a {
+  padding-right: 26px !important;
+}
+
+#sidebar ul li a {
+  text-align: right !important;
+}
+
+.sidebar-wrapper.active ul li i {
+  right: 10px;
+  float: unset !important;
+  margin-left: 0 !important;
+  margin-right: 23px !important;
+}
+
+.sidebar-header-hamburger {
+  right: 87% !important;
+}
+
+.sidebar-wrapper.active .sidebar-header-hamburger {
+  right: 24px !important;
+}
+
+
+/*---Reverse Style-----*/
+.title {
+  float: right;
+}
+
+.header-right {
+     float: left !important;
+   }
+
+.lang-dropdown
+{
+  margin-top: 14px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 24%;
+}
+
+.sidebar-left.rtl-ps-none {
+  right: 0 !important;
+  left: auto !important;
+  width: 171px !important;
+}
+
+.main-content-wrap.d-flex.flex-column {
+  display: block !important;
+  float: left !important;
+}
+
+
+.navigation-left{
+  margin-right: 0 !important;
+}

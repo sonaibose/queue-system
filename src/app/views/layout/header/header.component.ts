@@ -32,11 +32,11 @@ export class HeaderComponent implements OnInit {
   loadTheLanguage() {
     switch (this.selectedLanguage) {
       case 'ar':
-        $('head').append('<link rel=\'stylesheet\' href=assets/rtl.scss \' type=\'text/css\' />');
+        $('head').append('<link rel=\'stylesheet\' href=assets/rtl.css \' type=\'text/css\' />');
         this.customizer.toggleDir(true);
         break;
       case 'en':
-        $('link[href=\'assets/rtl.scss\']').remove();
+        $('link[href=\'assets/rtl.css\']').remove();
         this.customizer.toggleDir(false);
         break;
     }

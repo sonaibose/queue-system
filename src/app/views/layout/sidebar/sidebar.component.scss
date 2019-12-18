@@ -274,17 +274,6 @@ $sidebar-width-percentage: 100%;
 }
 
 
-/*---Reverse Style-----*/
-.reverse {
-  .sidebar-left.rtl-ps-none {
-    right: 0;
-    left: auto !important;
-    width: 171px;
-  }
 
-  .main-content-wrap.d-flex.flex-column {
-    display: block !important;
-    float: left !important;
-  }
-}
+
 
